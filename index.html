@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        body{
+            font-size: 1.2em ;
+
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .parent{
+            padding: 0.5em;
+            border: 5px solid #ccc;
+        }
+        .child{
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            background-color: blueviolet;
+            padding: 1em;
+            color: white;
+        }
+        .parent{
+            position: relative;
+        }
+        .child{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Necessitatibus fugit quisquam id 
+            possimus, repellat obcaecati culpa nemo earum 
+            repudiandae laborum similique. Quis ipsa quidem nesciunt 
+            dolorem. Rerum iusto ullam explicabo.
+        </p>
+        <div class="child">Target</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Possimus fuga excepturi perspiciatis, cum maxime animi 
+            velit commodi numquam asperiores porro magnam tempore, 
+            optio minima repellat placeat laboriosam dignissimos assumenda!
+         Incidunt.
+        </p>
+    </div>
+</body>
+</html>
